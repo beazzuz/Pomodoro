@@ -17,6 +17,9 @@ A **Pomodoro Timer** é uma aplicação simples e eficiente para gerenciar o tem
 Acesse o projeto online:
 [Pomodoro Timer](https://beazzuz.github.io/Pomodoro/)
 
+Veja o protótipo inicial no Figma:
+[Protótipo Figma](https://www.figma.com/design/OawQJuN92XcH5YO8U5Gqzw/Pomodoro?node-id=0-1&m=dev&t=NHogXG02RNPw1Acw-1)
+
 ## 🔨 Tecnologias Utilizadas
 - **HTML5**: Para a estrutura e semântica do projeto.
 - **CSS3**: Para o design responsivo e estilização do temporizador.
@@ -28,9 +31,6 @@ Acesse o projeto online:
 3. Clique no botão **Start** para iniciar o temporizador.
 4. Ao final do ciclo, um som será reproduzido.
 5. Use o botão **Reset** para reiniciar o ciclo atual.
-
-## 🎨 Prototipo Inicial
-![Pomodoro Timer](https://www.figma.com/proto/OawQJuN92XcH5YO8U5Gqzw/Pomodoro?t=Yv00A2WT9XHt9iEq-1)
 
 ## 🛠️ Instalação Local
 Se desejar executar o projeto localmente:
@@ -54,7 +54,7 @@ Se desejar executar o projeto localmente:
 Este projeto é licenciado sob a [MIT License](LICENSE). Você é livre para usá-lo e modificá-lo conforme sua necessidade.
 
 ## 👨‍💻 Autor
-Feito com por [Beazzuz](https://github.com/beazzuz).
+Feito por [Beazzuz](https://github.com/beazzuz).
 
 ---
 
