@@ -29,8 +29,8 @@ Acesse o projeto online:
 4. Ao final do ciclo, um som será reproduzido.
 5. Use o botão **Reset** para reiniciar o ciclo atual.
 
-## 🎨 Captura de Tela
-![Pomodoro Timer Screenshot](https://via.placeholder.com/800x400?text=Captura+de+Tela+do+Pomodoro+Timer)
+## 🎨 Prototipo Inicial
+![Pomodoro Timer]((https://www.figma.com/proto/OawQJuN92XcH5YO8U5Gqzw/Pomodoro?t=Yv00A2WT9XHt9iEq-1))
 
 ## 🛠️ Instalação Local
 Se desejar executar o projeto localmente:
