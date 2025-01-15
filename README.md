@@ -30,7 +30,7 @@ Acesse o projeto online:
 5. Use o botão **Reset** para reiniciar o ciclo atual.
 
 ## 🎨 Prototipo Inicial
-![Pomodoro Timer]((https://www.figma.com/proto/OawQJuN92XcH5YO8U5Gqzw/Pomodoro?t=Yv00A2WT9XHt9iEq-1))
+![Pomodoro Timer](https://www.figma.com/proto/OawQJuN92XcH5YO8U5Gqzw/Pomodoro?t=Yv00A2WT9XHt9iEq-1)
 
 ## 🛠️ Instalação Local
 Se desejar executar o projeto localmente:
