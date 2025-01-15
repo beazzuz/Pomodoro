@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+ 
+<body>
+    
+    <section id="container">
+        <nav class="menu">
+            <a href="#" id="pom"><div class="btn-nav active" >Pomodoro</div></a>
+            <a href="#" id="short"><div class="btn-nav">Short Break</div></a>
+            <a href="#" id="long"><div class="btn-nav" >Long Break</div></a>
+        </nav>
+        <section id="frames">
+            <div id="pomodoro" class="frame active">
+                <div id="tomato">
+                    <div id="circle1">
+                        <img src="img/talo.png" alt="talo-do-tomate" id="talo">
+                        <div id="circle2">
+                            <div id="circle3">
+                                <div id="progress"></div>
+                                <div id="time">25:00</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <button class="btn">Start</button>
+                <button class="btn" id="reset">Reset</button>
+                
+
+                
+              </div>
+        
+        </section>
+    </section>
+
+
+    
+</body>
+</html>

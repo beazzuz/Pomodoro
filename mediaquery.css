@@ -1,0 +1,24 @@
+@media screen and (min-width: 800px) {
+
+    #container {
+        width: 600px;
+    }
+
+    nav {
+        width: 500px;
+        justify-content: space-around;
+    }
+    nav a{
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .btn-nav{
+        padding: 15px;
+        height: 30px;
+        width: 120px;
+        border-radius: 50px;
+    }
+   
+    
+}

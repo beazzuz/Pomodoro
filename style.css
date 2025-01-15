@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins' ,'Roboto', sans-serif;
+    background-color:#BA4949;
+    color: #FFEDED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+
+   
+}
+#container{
+    margin: auto;
+    width: 330px;
+    height: 610px;
+    background-color: #C15C5C;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #B70C14;
+    box-shadow: 1px 1px 10px 1px #00000015;
+    width: 350px;
+
+
+}
+nav a{
+    text-decoration: none;
+    color: #FFEDED;
+    font-size: 14px;
+    font-weight: 600;
+  
+}
+.btn-nav{
+    
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    height: 30px;
+    width: 88px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; /* Botão inativo */
+    opacity: 0.6; /* Torna o botão inativo apagado */
+    transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-nav.active {
+    background-color: #FF9885; /* Destaque do botão ativo */
+    color: #FFFFFF; /* Texto do botão ativo */
+    opacity: 1; /* Torna o botão ativo totalmente visível */
+    
+}
+#frames{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#btn1{
+    background-color: #EB6154;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#pomodoro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+#tomato{
+    position: relative; /* Necessário para posicionar o talo */
+    display: flex;
+    justify-content: center; /* Alinha os círculos horizontalmente */
+    align-items: center; /* Alinha os círculos verticalmente */
+    
+    
+}
+#talo {
+    position: absolute; /* Posiciona o talo no topo */
+    top: -50px; /* Ajusta a posição vertical para cima */
+    width: 180px; /* Tamanho do talo */
+    height: auto; /* Mantém proporção */
+}
+
+
+#circle1{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color:#B70C14 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px #00000018;
+    
+    
+}
+#circle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: #EB6154;
+    
+   
+}
+#circle3{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #FF9885;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+#progress {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #EB6154 0%,
+        transparent 0% 100%
+    );
+    z-index: 1;
+}
+#time {
+    position: absolute;
+    z-index: 2;
+    font-size: 24px;
+    color: #FFEDED;
+    font-weight: bold;
+    font-size:50px;
+}
+
+.btn{
+    width: 196px;
+    height: 50px;
+    background-color:white ;
+    color: #B70C14;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0cap 6px 1px  #fcfcfcdb;
+    font-weight: 600;
+    margin: 20px;
+    cursor: pointer;
+}
+#reset {
+    visibility: hidden; /* Mantém o espaço reservado, mas esconde o botão */
+    opacity: 0; /* Torna o botão invisível */
+    transition: opacity 0.3s ease; /* Suaviza a transição de visibilidade */
+    margin: 5px;
+}
+
+#reset.show {
+    visibility: visible; /* Torna o botão visível */
+    opacity: 1; /* Faz o botão aparecer suavemente */
+}
+
